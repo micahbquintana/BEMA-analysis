@@ -7,7 +7,7 @@ final = myData[,-c(1)]
 library("lavaan")
 library("semPlot")
 
-##example 1 - one latent variable
+## example 1 - one latent variable
 ## enter the correlation matrix
 wisc4.cor = lav_matrix_lower2full(c(1,
 						0.72,1,
